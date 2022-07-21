@@ -1,3 +1,4 @@
+/* Animations from https://animista.net/play */
 .shake-vertical {
 	-webkit-animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 	        animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
