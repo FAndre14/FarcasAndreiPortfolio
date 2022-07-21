@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/FarcasAndreiPortfolio/static/css/main.83bc3137.css",
-    "main.js": "/FarcasAndreiPortfolio/static/js/main.100b9173.js",
+    "main.css": "/FarcasAndreiPortfolio/static/css/main.eb40a79c.css",
+    "main.js": "/FarcasAndreiPortfolio/static/js/main.e59e7e00.js",
+    "static/media/UserProfile.png": "/FarcasAndreiPortfolio/static/media/UserProfile.90dcce9a7ee9cbf08aba.png",
     "static/media/AboutMe.jpg": "/FarcasAndreiPortfolio/static/media/AboutMe.3bf79e6f64ae9bed090d.jpg",
     "static/media/user-placeholder.png": "/FarcasAndreiPortfolio/static/media/user-placeholder.3dc9c18844f64724cff4.png",
+    "static/media/MyCV.pdf": "/FarcasAndreiPortfolio/static/media/MyCV.6b604a1d5bde3e692bbe.pdf",
     "index.html": "/FarcasAndreiPortfolio/index.html",
-    "main.83bc3137.css.map": "/FarcasAndreiPortfolio/static/css/main.83bc3137.css.map",
-    "main.100b9173.js.map": "/FarcasAndreiPortfolio/static/js/main.100b9173.js.map"
+    "main.eb40a79c.css.map": "/FarcasAndreiPortfolio/static/css/main.eb40a79c.css.map",
+    "main.e59e7e00.js.map": "/FarcasAndreiPortfolio/static/js/main.e59e7e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.83bc3137.css",
-    "static/js/main.100b9173.js"
+    "static/css/main.eb40a79c.css",
+    "static/js/main.e59e7e00.js"
   ]
 }
