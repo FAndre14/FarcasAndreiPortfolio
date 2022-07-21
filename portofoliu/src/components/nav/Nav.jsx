@@ -1,6 +1,6 @@
 import React from 'react';
 import "./nav.css";
-import { GoHome, GoPerson, GoProject } from "react-icons/go"
+import { GoHome, GoPerson, GoProject, GoRepo, GoQuestion } from "react-icons/go"
 import { useState } from 'react';
 
 const Nav = () => {
@@ -9,13 +9,6 @@ const Nav = () => {
     <div className='container__center'>
       <nav>
         <a
-        className={activeNav === "#about" ? "active" : ""}
-        onClick= {() => setActiveNav("#about")}
-        href='#about'>
-        <GoPerson />
-        </a>
-
-        <a
         className={activeNav === "#home" ? "active" : ""}
         onClick= {() => setActiveNav("#home")}
         href='#home'>
@@ -23,10 +16,32 @@ const Nav = () => {
         </a>
 
         <a
-        className={activeNav === "#projects" ? "active" : ""}
-        onClick= {() => setActiveNav("#projects")}
-        href='#projects'>
+        className={activeNav === "#about" ? "active" : ""}
+        onClick= {() => setActiveNav("#about")}
+        href='#about'>
+        <GoPerson />
+        </a>
+
+        <a
+        className={activeNav === "#experience" ? "active" : ""}
+        onClick= {() => setActiveNav("#experience")}
+        href='#experience'
+        id='anchor__experience'>
+        <GoRepo />
+        </a>
+
+        <a
+        className={activeNav === "#portfolio" ? "active" : ""}
+        onClick= {() => setActiveNav("#portfolio")}
+        href='#portfolio'>
         <GoProject />
+        </a>
+
+        <a
+        className={activeNav === "#contact" ? "active" : ""}
+        onClick= {() => setActiveNav("#contact")}
+        href='#contact'>
+        <GoQuestion />
         </a>
       </nav>
     </div>

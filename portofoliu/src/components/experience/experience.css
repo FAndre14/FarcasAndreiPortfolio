@@ -1,0 +1,80 @@
+.container__experience {
+    display: flex;
+    height: 100%;
+}
+
+.container__frontend {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    grid-area: desc1;
+}
+
+.container__frontend h3, .container__backend h3 {
+    font-size: 1.4rem;
+    color: var(--color-light);
+}
+
+.container__backend {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    text-align: center;
+    flex: 1;
+    grid-area: desc2;
+}
+
+.chartpie__graphic {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0 1rem;
+    flex: 2;
+    transition: var(--transition);
+    grid-area: chart;
+}
+
+.chart {
+    font-size: .3rem;
+    max-height: 75%;
+}
+
+/* ========== Media Queries (MEDIUM DEVICES) =========== */
+@media screen and (max-width:1024px){
+    .container__frontend h3, .container__backend h3 {
+        font-size: 1rem;
+        margin-bottom: 25rem;
+    }
+    .container__frontend h1, .container__backend h1 {
+        font-size: 1.4rem;
+    }
+    .container__experience {
+        display: grid;
+        grid-template: 
+        "chart chart"
+        "desc1 desc2";
+    }
+
+    #chart {
+        display: none;
+    }
+    h2 {
+        margin-top: 20rem;
+    }
+}
+
+
+/* ========== Media Queries (SMALL DEVICES) =========== */
+@media screen and (max-width:600px){
+    .container__frontend h3, .container__backend h3 {
+        font-size: .8rem;
+    }
+    .container__frontend h1, .container__backend h1 {
+        font-size: 1rem;
+    }
+    .chartpie__tooltip {
+        display: none;
+    }
+}
