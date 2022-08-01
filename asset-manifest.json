@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/FarcasAndreiPortfolio/static/css/main.29e0a3f0.css",
-    "main.js": "/FarcasAndreiPortfolio/static/js/main.10984fad.js",
+    "main.js": "/FarcasAndreiPortfolio/static/js/main.b1b8c320.js",
+    "static/media/RecipesBook.png": "/FarcasAndreiPortfolio/static/media/RecipesBook.23c3f3ed3c0c8bc4bf12.png",
     "static/media/UserProfile.png": "/FarcasAndreiPortfolio/static/media/UserProfile.2e3d0d482c6b1640bac6.png",
     "static/media/user-placeholder.png": "/FarcasAndreiPortfolio/static/media/user-placeholder.3dc9c18844f64724cff4.png",
     "static/media/Licenta.png": "/FarcasAndreiPortfolio/static/media/Licenta.433a9a3204cb4d775dce.png",
@@ -11,10 +12,10 @@
     "static/media/GraphsProject.png": "/FarcasAndreiPortfolio/static/media/GraphsProject.569b95cb32df4b28a46e.png",
     "index.html": "/FarcasAndreiPortfolio/index.html",
     "main.29e0a3f0.css.map": "/FarcasAndreiPortfolio/static/css/main.29e0a3f0.css.map",
-    "main.10984fad.js.map": "/FarcasAndreiPortfolio/static/js/main.10984fad.js.map"
+    "main.b1b8c320.js.map": "/FarcasAndreiPortfolio/static/js/main.b1b8c320.js.map"
   },
   "entrypoints": [
     "static/css/main.29e0a3f0.css",
-    "static/js/main.10984fad.js"
+    "static/js/main.b1b8c320.js"
   ]
 }
